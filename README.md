@@ -1,5 +1,18 @@
 # White Blood Cell Classification under Domain Shift
 
+If you find the code useful, please consider citing the following paper: 
+- https://arxiv.org/abs/2303.01777
+- Satoshi Tsutsui, Zhengyang Su, and Bihan Wen. (2023). Benchmarking White Blood Cell Classification Under Domain Shift. IEEE International Conference on Acoustics, Speech, & Signal Processing (ICASSP).
+```
+@inproceedings{tsutsui2023wbc,
+	author = {Satoshi Tsutsui and Zhengyang Su and Bihan Wen},
+	booktitle = {IEEE International Conference on Acoustics, Speech, & Signal Processing (ICASSP)},
+	month = {06},
+	title = {Benchmarking White Blood Cell Classification Under Domain Shift},
+	year = {2023}
+}
+```
+
 ## Dataset Preparation
 - RaabinWBC
 	- Download and decompress `Train`, `TestA`, and `TestB` into `./data/RaabinWBC/` from https://raabindata.com/free-data/.
